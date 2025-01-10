@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #4E342E;
-    background-color: #FAF3E0;
+    color: #3E2723;
+    background-color: #FFE4C4 ;
+    font-family: 'Jersey 10';
 }
 
 header {
     display: flex;
-    background-color: #6D4C41;
-    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B5835A;
+    color: #3E2723;
     padding: 1rem;
+    font-size: 50px;
 }
 
 header img {
-    max-height: 75px; /* Ajusta el tamaño del logo */
-    border-radius: 20%;
+    max-height: 100px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
-    flex-grow: 1; /* Asegura que el título se centre */
+    font-size: 100px;
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -30,7 +35,7 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background: #FFF8E1;
+    background: #FFE4C4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,15 +44,17 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #6D4C41;
+    border-bottom: 2px solid #3E2723;
     padding-bottom: 0.5rem;
-    color: #6D4C41;
+    color: #3E2723;
+    font-size: 50px;
 }
 
 .podcast-player iframe {
     width: 100%;
     border: none;
     margin: 1rem 0;
+    height: 150px;
 }
 
 .thumbnail img {
@@ -60,7 +67,16 @@ h2 {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #6D4C41;
-    color: white;
+    background-color: #3E2723;
+    color: #B5835A;
     margin-top: 2rem;
+}
+
+a {
+    color: #3E2723;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B5835A;
 }
