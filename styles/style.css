@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
-body {
+body {/*Caracteristicas del cuerpo de la pagina como colores y fuente  */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     font-family: 'Jersey 10';
 }
 
-header {
+header {/*Cabezera y diseño de la misma*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,51 +20,55 @@ header {
     font-size: 50px;
 }
 
-header img {
+header img {/*Icono superior izquierda*/
     max-height: 100px;
+    border-radius: 20px;
 }
 
-header h1 {
+header h1 {/*Titulo de la pagina*/
     margin: 0;
     font-size: 100px;
     flex-grow: 1;
     text-align: center;
 }
 
-main {
+main {/*Tamaño y caracteristicas de la pagina*/
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
     background: #FFE4C4;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    font-size: 25px;
+
 }
 
-section {
+section {/*Diferentes secciones de la pagina*/
     margin-bottom: 2rem;
 }
 
-h2 {
+h2 {/*Estilos de los titulos de las secciones*/
     border-bottom: 2px solid #3E2723;
     padding-bottom: 0.5rem;
     color: #3E2723;
     font-size: 50px;
 }
 
-.podcast-player iframe {
+.podcast-player iframe {/*Tamaño de Internet Archive*/
     width: 100%;
     border: none;
     margin: 1rem 0;
     height: 150px;
 }
 
-.thumbnail img {
+.thumbnail img {/*Estilos imagen grande de la ultima seccion*/
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-footer {
+footer {/*Estilos footer*/
     text-align: center;
     padding: 1rem;
     background-color: #3E2723;
