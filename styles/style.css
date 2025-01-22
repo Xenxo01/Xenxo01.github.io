@@ -82,6 +82,7 @@ footer {/*Estilos footer*/
 a {
     color: #3E2723;
     text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
