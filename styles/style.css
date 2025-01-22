@@ -63,7 +63,7 @@ h2 {/*Estilos de los titulos de las secciones*/
     height: 150px;
 }
 
-.thumbnail img {/*Estilos imagen grande de la ultima seccion*/
+img  {/*Estilos imagen grande de la ultima seccion*/
     max-width: 100%;
     height: auto;
     display: block;
